@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My JS Tutorial</h1>
+<p>Using for loop in Array</p>
+<button onclick="myFunction()">Click me</button>
+<p id="demo"></p>
+<script>
+function myFunction()
+{
+var index;
+var text = "<ul>";
+var cars = ["volvo","BMW", "Mercedese", "Skoda", "Honda"];
+for (index = 0; index < cars.length; index++)
+ {
+	text += "<li>" + cars[index] + "</li>";
+ }
+text += "</ul>";
+document.getElementById("demo").innerHTML = text;
+}
+
+changeImage()
+
+</script>
+
+</body>
+</html>
